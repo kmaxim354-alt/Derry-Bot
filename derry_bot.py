@@ -13,7 +13,6 @@ from datetime import time
 from openai import AsyncOpenAI
 import yt_dlp
 
-# ========== НАСТРОЙКА ЛИЧНЫХ ВОЙСОВ ==========
 PRIVATE_VOICE_SETTINGS_FILE = 'private_voice_settings.json'
 user_voice_channels = {}  # {user_id: channel_id}
 
